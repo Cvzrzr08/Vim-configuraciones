@@ -110,6 +110,13 @@ Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 " different version somewhere else.
 " Plugin 'ascenator/L9', {'name': 'newL9'}
 "-----------------------------------------------me---------------------------->>>>
+"snipmate
+ Plugin 'MarcWeber/vim-addon-mw-utils'
+  Plugin 'tomtom/tlib_vim'
+  Plugin 'garbas/vim-snipmate'
+
+  " Optional:
+  Plugin 'honza/vim-snippets'
 "https://github.com/ycm-core/YouCompleteMe
 "Plugin 'ycm-core/YouCompleteMe'
 "-----------------------------------------------endofMe
