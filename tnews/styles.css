@@ -145,9 +145,9 @@ hr{
 }
 
 .cards-banner-one {
-    width: 700%;
+    width: 100%;
     height: 450px;
-    background: url("./img/1.jpg") ;
+    background: url("./img/1.jpg") no-repeat center center/cover;
     margin: 50px;
     }
     
@@ -164,3 +164,55 @@ hr{
     }
  
     
+.cards-banner-two {
+
+    width: 90%;
+    height: 350%;
+    background: url('./img/2.jpg') no-repeat center center/cover;
+    
+}
+    
+    .cards-banner-two .content {
+        width: 70%;
+        padding: 100px 0 0 30px;
+    }
+
+/*social*/
+.social {
+
+    margin: 50px;
+}
+    .social p {
+    
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+    }
+
+.links {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+    
+    .links a {
+        margin: 0 30px;
+    }
+    .links a i {
+        font-size: 3rem;
+    }
+
+/* footer */
+.footer-links {
+    background: #2f3640 ;
+    color: #616161;
+    font-size: 12px;
+    padding: 35px 0;
+}
+
+    gap:  10px;
+    align-items: flex-start;
+    justify-content: center;
+
+
