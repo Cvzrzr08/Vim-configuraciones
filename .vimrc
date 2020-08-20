@@ -39,6 +39,17 @@ Plug 'prettier/vim-prettier', {
   \ 'do': 'yarn install',
   \ 'for': ['javascript', 'typescript', 'css', 'less', 'scss', 'json', 'graphql', 'markdown', 'vue', 'yaml', 'html'] }
 
+"vim-jsx-pretty"
+Plug 'maxmellon/vim-jsx-pretty'
+"Recommended but no required React"
+Plug 'yuezk/vim-js'
+Plug 'maxmellon/vim-jsx-pretty'
+"if you want to highlight tsx files"
+Plug 'HerringtonDarkholme/yats.vim'
+" or Plug 'leafgarland/typescript-vim'
+Plug 'maxmellon/vim-jsx-pretty'
+"Asynchronous Lint Engine"
+"Plug 'dense-analysis/ale'"
 
 
 call plug#end()
@@ -119,9 +130,24 @@ Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
   Plugin 'honza/vim-snippets'
 "https://github.com/ycm-core/YouCompleteMe
 "Plugin 'ycm-core/YouCompleteMe'
+
+"vim-JSX"
+Plugin 'pangloss/vim-javascript'
+Plugin 'mxw/vim-jsx'
+
 "-----------------------------------------------endofMe
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
+let g:jsx_ext_required = 1
+
+
+
+
+
+
+
+
+
 filetype plugin indent on    " required
 " To ignore plugin indent changes, instead use:
 "filetype plugin on
