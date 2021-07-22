@@ -1,0 +1,14 @@
+# Insert your preferred key mappings here.
+
+map 3 scrollRight
+map 2 scrollLeft
+map e scrollPageDown
+map c reload
+map 5 enterFindMode
+map - Vomnibar.activateTabSelection
+map w scrollPageUp
+map z restoreTab
+map . nextTab
+map , previousTab
+map 9 goBack
+map 0 goForward
